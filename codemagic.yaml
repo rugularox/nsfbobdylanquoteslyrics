@@ -1,7 +1,5 @@
 workflows:
-  android-workflow:
-    name: Android Workflow
-    # ....
-    environment:
-      android_signing:
-        - keystore_reference
+  my-workflow:
+    scripts:
+      - name: say hello
+        script: echo "Hello Codemagician!"
