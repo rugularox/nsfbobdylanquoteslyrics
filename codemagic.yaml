@@ -1,0 +1,7 @@
+workflows:
+  android-workflow:
+    name: Android Workflow
+    # ....
+    environment:
+      android_signing:
+        - keystore_reference
